@@ -3,72 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простой лендинг</title>
+    <title>Мой продукт</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="logo">Лого</div>
-            <nav>
-                <a href="#features">Преимущества</a>
-                <a href="#about">О нас</a>
-                <a href="#contact">Контакты</a>
+            <a href="#" class="logo">Лого</a>
+            <nav class="nav">
+                <a href="#features">Возможности</a>
+                <a href="#about">О продукте</a>
+                <a href="#contacts">Контакты</a>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Добро пожаловать на наш сайт</h1>
-            <p>Простое решение для ваших задач</p>
-            <button class="cta-button">Узнать больше</button>
-        </div>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Решаем ваши задачи</h1>
+                <p>Простое и эффективное решение</p>
+                <button class="btn">Попробовать</button>
+            </div>
+        </section>
 
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Наши преимущества</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <h3>Качество</h3>
-                    <p>Мы гарантируем высокое качество наших продуктов</p>
-                </div>
-                <div class="feature">
-                    <h3>Надежность</h3>
-                    <p>Надежные решения проверенные временем</p>
-                </div>
-                <div class="feature">
-                    <h3>Поддержка</h3>
-                    <p>Круглосуточная поддержка наших клиентов</p>
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Наши преимущества</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Быстро</h3>
+                        <p>Экономьте время с нашим решением</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Надежно</h3>
+                        <p>Работает без сбоев</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Удобно</h3>
+                        <p>Интуитивно понятный интерфейс</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="about" class="about">
+    <footer class="footer">
         <div class="container">
-            <h2>О нас</h2>
-            <p>Мы - команда профессионалов, работающая для вас уже более 10 лет. Наша миссия - сделать вашу жизнь проще с помощью наших решений.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Свяжитесь с нами</h2>
-            <form>
-                <input type="text" placeholder="Ваше имя" required>
-                <input type="email" placeholder="Ваш email" required>
-                <textarea placeholder="Ваше сообщение" required></textarea>
-                <button type="submit">Отправить</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Простой лендинг. Все права защищены.</p>
+            <p>© 2023 Мой продукт</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
